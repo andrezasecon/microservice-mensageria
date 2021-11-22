@@ -6,7 +6,7 @@ const PORT = env.PORT || 8080;
 
 app.get('/api/status', (req, res) => {
     return res.status(200).json({
-        Service: "Auth-API",
+        service: "Auth-API",
         status: "up",
         httpStatus: 200,
     });
